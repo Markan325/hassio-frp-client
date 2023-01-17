@@ -4,7 +4,6 @@ set +u
 WAIT_PIDS=()
 ADDON_PATH='/share/frp'
 CONFIG_PATH='/share/frp/frpc.ini'
-version=$2
 
 function stop_frpc() {
     bashio::log.info "Shutdown frpc client"
@@ -20,7 +19,7 @@ function logger() {
     done
 }
 
-bashio::log.info "Starting FRPC v${version}"
+bashio::log.info "Starting FRPC"
 
 mkdir -p $ADDON_PATH || bashio::exit.nok "Could not create ${ADDON_PATH} folder"
 
