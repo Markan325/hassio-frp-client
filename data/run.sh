@@ -19,7 +19,7 @@ function logger() {
     done
 }
 
-bashio::log.info "Starting frp client"
+bashio::log.info "Starting frpc"
 
 mkdir -p $ADDON_PATH || bashio::exit.nok "Could not create ${ADDON_PATH} folder"
 
