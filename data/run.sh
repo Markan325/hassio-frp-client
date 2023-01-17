@@ -37,7 +37,7 @@ fi
 
 cd /usr/src
 ./frpc -c $CONFIG_PATH & logger $log_file & WAIT_PIDS+=($!)
-
+bashio::log.info ./frpc -v
 
 trap "stop_frpc" SIGTERM SIGHUP
 
