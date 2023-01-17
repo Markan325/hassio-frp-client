@@ -1,5 +1,5 @@
 {
-  "name": "FRP Client Hass.io Add-on",
-  "url": "https://github.com/steplov/hassio-frp-client",
-  "maintainer": "S Teplov <teplov.s.dp@gmail.com>"
+  "name": "FRPC Hass.io Add-on",
+  "url": "https://github.com/Markan325/hassio-frp-client.git",
+  "maintainer": "Markan"
 }
